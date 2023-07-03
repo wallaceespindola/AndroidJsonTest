@@ -3,6 +3,8 @@ package com.example.testejson;
 public class ConsumirJsonActivity extends ListActivity {
 
 	ProgressDialog dialog;
+
+	//String tkTestValue = dGlja2V0RWRlbnJlZDIyMTQzIDA2MTEtMzUwOS0zNzY0MzEgMTExOC0wOTQ1;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -11,7 +13,7 @@ public class ConsumirJsonActivity extends ListActivity {
 //		.execute("http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20geo.places%20where%20text%3D%22rio%20de%20janeiro%2C%20brazil%22&format=json&diagnostics=true&callback=");
 		//.execute("https://api.twitter.com/1/trends/23424768.json");
 		.execute("http://www.ticket.com.br/portal-web/consult-card/balance/json?chkProduto=TA&card=6033425628415009");
-		//.execute("http://www.ticket.com.br/portal-web/consult-card/release/json?txtOperacao=lancamentos&token=dGlja2V0RWRlbnJlZDIyMTQzIDA2MTEtMzUwOS0zNzY0MzEgMTExOC0wOTQ1&card=6033425628415009&rows=10");
+		//.execute("http://www.ticket.com.br/portal-web/consult-card/release/json?txtOperacao=lancamentos&token=aaaaaaaaaaaaaaa&card=6033425628415009&rows=10");
 		// TR: 6033425628415009
 	}
 
